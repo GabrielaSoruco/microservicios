@@ -9,3 +9,5 @@ spring:
           default-label: main
           uri: https://github.com/GabrielaSoruco/microservicios.git
           search-paths: config-data
+  application:
+    name: config-service
