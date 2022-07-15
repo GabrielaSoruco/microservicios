@@ -38,9 +38,9 @@ public class UserController {
         return ResponseEntity.ok(userNew);
     }
 
-    @PostMapping("/saveBike/{userId}")
-    public ResponseEntity<Bike> saveBike(@PathVariable("userId") int userId, @RequestBody Bike bike) {
-        return ResponseEntity.ok(userService.saveBike(userId, bike));
-    }
+//    @PostMapping("/saveBike/{userId}")
+//    public ResponseEntity<Bike> saveBike(@PathVariable("userId") int userId, @RequestBody Bike bike) {
+//        return ResponseEntity.ok(userService.saveBike(userId, bike));
+//    }
 
 }
